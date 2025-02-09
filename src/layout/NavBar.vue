@@ -33,7 +33,7 @@ watch(() => props.menuOpen, (newVal) => {
 
         <div class="hidden md:flex items-center space-x-8">
           <a href="#home" class="text-gray-300 hover:text-white transition-colors">Inicio</a>
-          <a href="#about" class="text-gray-300 hover:text-white transition-colors">Sobre mi</a>
+          <a href="#about" class="text-gray-300 hover:text-white transition-colors">Sobre mí</a>
           <a href="#projects" class="text-gray-300 hover:text-white transition-colors">Proyectos</a>
           <LinkButton label="Contacto" href="#contact" outlined />
         </div>

@@ -12,7 +12,7 @@ const backendSkills = ['Node.js', 'Spring Boot', '.NET', 'AWS', 'Docker'];
       <div class="max-w-3xl mx-auto px-4">
         <h2
           class="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
-          Sobre mi
+          Sobre mí
         </h2>
 
         <!-- Descripción y Tecnologías -->

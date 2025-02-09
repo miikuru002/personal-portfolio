@@ -37,7 +37,7 @@ const emit = defineEmits(['update:menuOpen']);
       class="text-2xl font-semibold text-white my-4 transform transition-transform duration-300"
       :class="{ 'opacity-100 translate-y-0': props.menuOpen, 'opacity-0 translate-y-5': !props.menuOpen }"
     >
-      Sobre mi
+      Sobre mí
     </a>
     <a
       href="#projects"
