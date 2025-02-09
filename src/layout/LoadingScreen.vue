@@ -20,7 +20,7 @@ const logMessages = [
 
 onMounted(() => {
   let index = 0;
-  const totalDuration = 3000;
+  const totalDuration = 1_000;
   const logIntervalTime = totalDuration / logMessages.length; //~500ms por mensaje
 
   //se muestran los mensajes uno por uno
