@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import RevealOnScroll from '@/layout/RevealOnScroll.vue';
 import LinkButton from '@/views/components/LinkButton.vue';
+import { IconBrandGithub, IconBrandLinkedin, IconBrandDiscord } from '@tabler/icons-vue';
 </script>
 
 <template>
@@ -15,6 +16,18 @@ import LinkButton from '@/views/components/LinkButton.vue';
         <p class="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
           Desarrollador web especializado en backend y futuro ingeniero de software con experiencia en la creación de aplicaciones y servicios web escalables
         </p>
+
+        <div class="flex justify-center space-x-4 mb-8">
+          <a href="https://github.com/miikuru002" target="_blank" class="text-gray-300 hover:text-white transition-colors">
+            <IconBrandGithub class="w-7 h-7" />
+          </a>
+          <a href="https://www.linkedin.com/in/jamutaq-ortega" target="_blank" class="text-gray-300 hover:text-white transition-colors">
+            <IconBrandLinkedin class="w-7 h-7" />
+          </a>
+          <a href="https://discord.com/users/miikuru002" target="_blank" class="text-gray-300 hover:text-white transition-colors">
+            <IconBrandDiscord class="w-7 h-7" />
+          </a>
+        </div>
 
         <div class="flex justify-center space-x-4">
           <LinkButton label="Ver mis proyectos" href="#projects" />
