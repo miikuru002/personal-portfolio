@@ -2,7 +2,7 @@
 import { watch } from 'vue';
 import type { INavBarProps } from '@/typings/props';
 import LinkButton from '@/views/components/LinkButton.vue';
-import { IconMenu3 } from '@tabler/icons-vue';
+import { Icon } from '@iconify/vue';
 
 const props = defineProps<INavBarProps>();
 const emit = defineEmits(['update:menuOpen']);
@@ -28,7 +28,7 @@ watch(() => props.menuOpen, (newVal) => {
           rounded-lg  hover:bg-blue-600 transition-all duration-200"
           @click="emit('update:menuOpen', !props.menuOpen)"
         >
-          <IconMenu3 class="w-6 h-6" />
+          <Icon icon="tabler:menu-3" class="w-6 h-6" />
         </div>
 
         <div class="hidden md:flex items-center space-x-8">

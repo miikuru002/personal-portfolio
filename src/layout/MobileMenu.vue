@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type { IMobileMenuProps } from '@/typings/props';
-import { IconX } from '@tabler/icons-vue';
+import { Icon } from '@iconify/vue';
 
 const props = defineProps<IMobileMenuProps>();
 const emit = defineEmits(['update:menuOpen']);
@@ -20,7 +20,7 @@ const emit = defineEmits(['update:menuOpen']);
       class="absolute top-6 right-6 text-white text-3xl focus:outline-none cursor-pointer"
       aria-label="Close Menu"
     >
-      <IconX class="w-7 h-7" />
+      <Icon icon="tabler:x" class="w-7 h-7" />
     </button>
 
     <a

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import RevealOnScroll from '@/layout/RevealOnScroll.vue';
 import LinkButton from '@/views/components/LinkButton.vue';
-import { IconBrandGithub, IconBrandLinkedin, IconBrandDiscord } from '@tabler/icons-vue';
+import { Icon } from '@iconify/vue';
 </script>
 
 <template>
@@ -19,13 +19,13 @@ import { IconBrandGithub, IconBrandLinkedin, IconBrandDiscord } from '@tabler/ic
 
         <div class="flex justify-center space-x-4 mb-8">
           <a href="https://github.com/miikuru002" target="_blank" class="text-gray-300 hover:text-white transition-colors">
-            <IconBrandGithub class="w-7 h-7" />
+            <Icon icon="tabler:brand-github" class="w-7 h-7" />
           </a>
           <a href="https://www.linkedin.com/in/jamutaq-ortega" target="_blank" class="text-gray-300 hover:text-white transition-colors">
-            <IconBrandLinkedin class="w-7 h-7" />
+            <Icon icon="tabler:brand-linkedin" class="w-7 h-7" />
           </a>
           <a href="https://discord.com/users/miikuru002" target="_blank" class="text-gray-300 hover:text-white transition-colors">
-            <IconBrandDiscord class="w-7 h-7" />
+            <Icon icon="tabler:brand-discord" class="w-7 h-7" />
           </a>
         </div>
 
