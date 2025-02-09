@@ -1,9 +1,37 @@
 <script setup lang="ts">
 import RevealOnScroll from '@/layout/RevealOnScroll.vue';
+import { Icon } from '@iconify/vue';
 
-const programmingLanguages = ['JS', 'TS', 'Java', 'C#', 'C++', 'Python', 'SQL'];
-const frontendSkills = ['React', 'Vue', 'JSX', 'Tailwind'];
-const backendSkills = ['Node.js', 'Spring Boot', '.NET', 'AWS', 'Docker'];
+const programmingLanguages = [
+  { name: 'JS', icon: 'simple-icons:javascript', color: '#F7DF1E' },
+  { name: 'TS', icon: 'simple-icons:typescript', color: '#57a1f3' },
+  { name: 'Java', icon: 'nonicons:java-16', color: '#ED8B00' },
+  { name: 'C#', icon: 'simple-icons:csharp', color: '#9B4993' },
+  { name: 'Python', icon: 'simple-icons:python', color: '#629ccc' },
+  { name: 'Swift', icon: 'simple-icons:swift', color: '#FA7343' },
+];
+
+const frontendSkills = [
+  { name: 'React', icon: 'simple-icons:react', color: '#61DAFB' },
+  { name: 'Vue', icon: 'simple-icons:vuedotjs', color: '#42B883' },
+  { name: 'Tailwind CSS', icon: 'simple-icons:tailwindcss', color: '#38B2AC' },
+  { name: 'Flutter', icon: 'simple-icons:flutter', color: '#3aa0f6' }
+];
+
+const backendSkills = [
+  { name: 'Node.js', icon: 'simple-icons:nodedotjs', color: '#8CC84B' },
+  { name: 'Spring Boot', icon: 'simple-icons:springboot', color: '#6DB33F' },
+  { name: '.NET', icon: 'devicon-plain:dot-net', color: '#855eff' },
+  { name: 'AWS', icon: 'simple-icons:amazonaws', color: '#FF9900' },
+  { name: 'Docker', icon: 'simple-icons:docker', color: '#2496ED' }
+];
+
+const getStyles = (color: string) => ({
+  border: `1px solid ${color}33`, //20% opacity
+  color: `${color}`,
+  boxShadow: `0 2px 8px ${color}33`, //20% opacity shadow
+});
+
 </script>
 
 <template>
@@ -29,10 +57,11 @@ const backendSkills = ['Node.js', 'Spring Boot', '.NET', 'AWS', 'Docker'];
                 <span
                   v-for="(lang, index) in programmingLanguages"
                   :key="index"
-                  class="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                         hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                  class="flex items-center gap-2 py-1 px-3 rounded-full text-sm"
+                  :style="getStyles(lang.color)"
                 >
-                  {{ lang }}
+                  <Icon :icon="lang.icon" class="w-3 h-3" />
+                  {{ lang.name }}
                 </span>
               </div>
             </div>
@@ -43,10 +72,11 @@ const backendSkills = ['Node.js', 'Spring Boot', '.NET', 'AWS', 'Docker'];
                 <span
                   v-for="(tech, index) in frontendSkills"
                   :key="index"
-                  class="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                         hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                  class="flex items-center gap-2 py-1 px-3 rounded-full text-sm"
+                  :style="getStyles(tech.color)"
                 >
-                  {{ tech }}
+                  <Icon :icon="tech.icon" class="w-3 h-3" />
+                  {{ tech.name }}
                 </span>
               </div>
             </div>
@@ -57,10 +87,11 @@ const backendSkills = ['Node.js', 'Spring Boot', '.NET', 'AWS', 'Docker'];
                 <span
                   v-for="(tech, index) in backendSkills"
                   :key="index"
-                  class="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                         hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition"
+                  class="flex items-center gap-2 py-1 px-3 rounded-full text-sm"
+                  :style="getStyles(tech.color)"
                 >
-                  {{ tech }}
+                  <Icon :icon="tech.icon" class="w-3 h-3" />
+                  {{ tech.name }}
                 </span>
               </div>
             </div>
