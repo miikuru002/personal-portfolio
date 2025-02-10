@@ -8,21 +8,21 @@ const projects = ref([
     title: 'Hannami Tools',
     description: 'Herramientas simplificadas e inteligentes para el día a día.',
     technologies: ['Vue', 'Tailwind CSS', 'Spring Boot', 'PostgreSQL', 'Docker', 'IA', 'WebLLM', 'Keycloak', 'Stripe'],
-    image: 'src/assets/images/s1-hannami-web.png',
+    image: '/images/s1-hannami-web.png',
     link: 'https://hannami.xyz/login',
   },
   {
     title: 'Hannami Discord Bot',
     description: 'Chatbot para Discord con funcionalidades de entretenimiento y utilidades para comunidades.',
     technologies: ['Node.js', 'Discord.js', 'TypeScript', 'MongoDB'],
-    image: 'src/assets/images/s1-hannami-bot.png',
+    image: '/images/s1-hannami-bot.png',
     link: 'https://discord.com/oauth2/authorize?client_id=978184569729736756&permissions=274878295040&scope=bot%20applications.commands'
   },
   {
     title: 'ProWallet',
     description: 'Aplicación web para gestionar descuentos de facturas, carteras de clientes y reportes.',
     technologies: ['React', 'Tailwind CSS', 'Spring Boot', 'Keycloak'],
-    image: 'src/assets/images/s1-prowallet.png',
+    image: '/images/s1-prowallet.png',
     repository: 'https://github.com/miikuru002/prowallet-web',
     link: 'https://prowallet-web.vercel.app/login',
   },
@@ -30,7 +30,7 @@ const projects = ref([
     title: 'FlexiDorms Microservices',
     description: 'Plataforma de alquiler de habitaciones para estudiantes con arquitectura de microservicios.',
     technologies: ['Spring Boot', 'Spring Cloud', 'Docker', 'PostgreSQL', 'Apache Kafka', 'Keycloak'],
-    image: 'src/assets/images/s1-flexidorms.png',
+    image: '/images/s1-flexidorms.png',
     repository: 'https://github.com/miikuru002/FlexiDorms'
   },
   {
@@ -44,7 +44,7 @@ const projects = ref([
     title: 'AorraP Landing Page',
     description: 'Landing page para una empresa de servicios de finanzas personales.',
     technologies: ['React', 'Styled Components', 'TypeScript'],
-    image: 'src/assets/images/s1-aorrap.png',
+    image: '/images/s1-aorrap.png',
     repository: 'https://github.com/miikuru002/Finanzia-AorraP-landing',
     link: 'https://aorrap.netlify.app/'
   }
