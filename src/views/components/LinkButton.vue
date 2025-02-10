@@ -11,7 +11,7 @@ const filledClasses =
   'bg-blue-500 text-white hover:bg-blue-600 shadow-lg';
 
 const outlinedClasses =
-  'border border-blue-500/50 text-blue-500 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10';
+  'border border-blue-400/50 text-blue-400 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-400/10';
 
 const buttonClasses = computed(() =>
   [baseClasses, props.outlined ? outlinedClasses : filledClasses].join(' ')
