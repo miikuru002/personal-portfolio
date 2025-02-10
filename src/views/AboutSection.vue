@@ -46,8 +46,8 @@ const getStyles = (color: string) => ({
         <!-- Descripción y Tecnologías -->
         <div class="rounded-xl p-8 border-white/10 border">
           <p class="text-gray-300 mb-6">
-            Programador especializado en desarrollo web, enfocado en crear sistemas escalables, bien
-            estructurados y de alto rendimiento, con una arquitectura robusta.
+            Soy desarrollador de software especializado en backend y DevOps. Aunque también me desempeño bien en frontend, mi pasión radica en crear sistemas escalables y bien estructurados.
+            En mi tiempo libre, disfruto escuchar música, ver anime y desarrollar nuevos proyectos que me desafíen y me ayuden a seguir aprendiendo.
           </p>
 
           <div class="grid grid-cols-1 md:grid-cols-3">
