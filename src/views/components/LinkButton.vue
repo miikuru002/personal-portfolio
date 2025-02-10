@@ -4,14 +4,12 @@ import type { ILinkButtonProps } from '@/typings/props';
 
 const props = defineProps<ILinkButtonProps>();
 
-const baseClasses =
-  'font-medium px-5 py-2 rounded-lg transition-all duration-200';
+const baseClasses = 'font-medium px-5 rounded-lg transition-all duration-200';
 
-const filledClasses =
-  'bg-blue-500 text-white hover:bg-blue-600 shadow-lg';
+const filledClasses = 'py-2 bg-blue-500 text-white hover:bg-blue-600 shadow-lg';
 
 const outlinedClasses =
-  'border border-blue-400/50 text-blue-400 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-400/10';
+  'py-[5px] border border-blue-400/50 text-blue-400 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-400/10';
 
 const buttonClasses = computed(() =>
   [baseClasses, props.outlined ? outlinedClasses : filledClasses].join(' ')
