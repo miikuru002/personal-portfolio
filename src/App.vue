@@ -6,7 +6,7 @@ import MobileMenu from '@/layout/MobileMenu.vue';
 import LoadingScreen from '@/layout/LoadingScreen.vue';
 import HeroSection from '@/views/HeroSection.vue';
 import AboutSection from '@/views/AboutSection.vue';
-import ProjectsSection from '@/views/ProjectsSection.vue';
+// import ProjectsSection from '@/views/ProjectsSection.vue';
 import ContactSection from '@/views/ContactSection.vue';
 
 const menuOpen = ref(false);
@@ -24,7 +24,7 @@ const isLoaded = ref(false);
     <MobileMenu :menuOpen="menuOpen" @update:menuOpen="menuOpen = $event" />
     <HeroSection />
     <AboutSection />
-    <ProjectsSection />
+    <!-- <ProjectsSection /> -->
     <ContactSection />
   </div>
 </template>

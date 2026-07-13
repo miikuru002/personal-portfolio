@@ -10,4 +10,6 @@ export interface ILinkButtonProps {
   label: string;
   href: string;
   outlined?: boolean;
+  icon?: string;
+  external?: boolean;
 }

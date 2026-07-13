@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import { computed } from 'vue';
 import type { ILinkButtonProps } from '@/typings/props';
+import { Icon } from '@iconify/vue';
 
 const props = defineProps<ILinkButtonProps>();
 
-const baseClasses = 'font-medium px-5 rounded-lg transition-all duration-200';
+const baseClasses =
+  'inline-flex items-center justify-center gap-2 font-medium px-5 rounded-lg transition-all duration-200';
 
 const filledClasses = 'py-2 bg-blue-500 text-white hover:bg-blue-600 shadow-lg';
 
@@ -17,7 +19,13 @@ const buttonClasses = computed(() =>
 </script>
 
 <template>
-  <a :href="props.href" :class="buttonClasses">
+  <a
+    :href="props.href"
+    :class="buttonClasses"
+    :target="props.external ? '_blank' : undefined"
+    :rel="props.external ? 'noopener noreferrer' : undefined"
+  >
+    <Icon v-if="props.icon" :icon="props.icon" class="w-5 h-5" />
     {{ props.label }}
   </a>
 </template>

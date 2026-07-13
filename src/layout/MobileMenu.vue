@@ -39,13 +39,23 @@ const emit = defineEmits(['update:menuOpen']);
     >
       Sobre mí
     </a>
-    <a
+    <!-- <a
       href="#projects"
       @click="emit('update:menuOpen', false)"
       class="text-2xl font-semibold text-white my-4 transform transition-transform duration-300"
       :class="{ 'opacity-100 translate-y-0': props.menuOpen, 'opacity-0 translate-y-5': !props.menuOpen }"
     >
       Proyectos
+    </a> -->
+    <a
+      href="https://blog.miikuru002.dev"
+      target="_blank"
+      rel="noopener noreferrer"
+      @click="emit('update:menuOpen', false)"
+      class="text-2xl font-semibold text-white my-4 transform transition-transform duration-300"
+      :class="{ 'opacity-100 translate-y-0': props.menuOpen, 'opacity-0 translate-y-5': !props.menuOpen }"
+    >
+      Blog
     </a>
     <a
       href="#contact"
