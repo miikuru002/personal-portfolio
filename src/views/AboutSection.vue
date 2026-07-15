@@ -65,11 +65,9 @@ const getStyles = (color: string) => ({
         <!-- Descripción y Tecnologías -->
         <div class="rounded-xl p-8 border-white/10 border">
           <p class="text-gray-300 mb-6">
-            Me especializo en backend y cloud: microservicios con Spring Boot, procesamiento de
-            eventos con Kafka, autenticación con OAuth 2.0 e infraestructura en AWS y Azure.
-            Disfruto resolver problemas de arquitectura y dejar sistemas que sean simples de
-            mantener y de operar. Comparto lo que aprendo en mi blog y, fuera del trabajo, me
-            encontrarás escuchando música o viendo anime.
+            Construyo soluciones backend mantenibles, escalables y seguras, guiándome por principios
+            de arquitectura, calidad del código y observabilidad. Fuera del ámbito profesional,
+            disfruto escuchar música, viajar, ver anime y hacer cosplay.
           </p>
 
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">

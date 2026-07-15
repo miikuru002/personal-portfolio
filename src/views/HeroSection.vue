@@ -15,8 +15,8 @@ import LinkButton from '@/views/components/LinkButton.vue';
         </h1>
 
         <p class="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-          Ingeniero de software con 3 años de experiencia en desarrollo backend, diseñando servicios
-          escalables, seguros y de alto rendimiento en la nube
+          Ingeniero de software especializado en desarrollo backend y soluciones cloud seguras y
+          escalables
         </p>
 
         <div class="flex flex-wrap justify-center gap-4">
