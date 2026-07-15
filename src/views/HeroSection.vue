@@ -15,8 +15,7 @@ import LinkButton from '@/views/components/LinkButton.vue';
         </h1>
 
         <p class="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-          Ingeniero de software especializado en desarrollo backend y soluciones cloud seguras y
-          escalables
+          Ingeniero de Software. Siempre aprendiendo algo nuevo ✨
         </p>
 
         <div class="flex flex-wrap justify-center gap-4">

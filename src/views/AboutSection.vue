@@ -65,9 +65,9 @@ const getStyles = (color: string) => ({
         <!-- Descripción y Tecnologías -->
         <div class="rounded-xl p-8 border-white/10 border">
           <p class="text-gray-300 mb-6">
-            Construyo soluciones backend mantenibles, escalables y seguras, guiándome por principios
-            de arquitectura, calidad del código y observabilidad. Fuera del ámbito profesional,
-            disfruto escuchar música, viajar, ver anime y hacer cosplay.
+            Cuento con más de 3 años de experiencia en construir soluciones backend mantenibles,
+            escalables y seguras. Fuera del ámbito profesional, disfruto escuchar música, viajar,
+            ver anime y hacer cosplay en mis tiempos libres 🌸.
           </p>
 
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
