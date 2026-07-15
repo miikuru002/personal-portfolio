@@ -67,7 +67,7 @@ const getStyles = (color: string) => ({
           <p class="text-gray-300 mb-6">
             Cuento con más de 3 años de experiencia en construir soluciones backend mantenibles,
             escalables y seguras. Fuera del ámbito profesional, disfruto escuchar música, viajar,
-            ver anime y hacer cosplay en mis tiempos libres 🌸.
+            ver anime y hacer cosplay en mis tiempos libres 🌸
           </p>
 
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
