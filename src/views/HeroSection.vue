@@ -11,11 +11,13 @@ import LinkButton from '@/views/components/LinkButton.vue';
           class="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-tight"
         >
           ¡Hola! <br />
-          Soy J. Ortega <span class="text-white">👋</span>
+          Soy <span class="md:hidden">miikuru002</span
+          ><span class="hidden md:inline">J. Ortega</span>
+          <span class="text-white"> 👋</span>
         </h1>
 
         <p class="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-          Ingeniero de Software. Siempre aprendiendo algo nuevo
+          Ingeniero de Software. Siempre aprendiendo algo nuevo y disfrutando del proceso ✨
         </p>
 
         <div class="flex flex-wrap justify-center gap-4">
