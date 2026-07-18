@@ -47,7 +47,7 @@ function handleSubmit(e: Event) {
               name="name"
               required
               v-model="formData.name"
-              class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+              class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-white transition light:bg-black/5 light:border-black/10 light:text-gray-900 light:placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
               placeholder="Ingresa tu nombre"
             />
           </div>
@@ -59,7 +59,7 @@ function handleSubmit(e: Event) {
               name="email"
               required
               v-model="formData.email"
-              class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+              class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-white transition light:bg-black/5 light:border-black/10 light:text-gray-900 light:placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
               placeholder="Ingresa tu correo"
             />
           </div>
@@ -71,7 +71,7 @@ function handleSubmit(e: Event) {
               required
               rows="5"
               v-model="formData.message"
-              class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-white transition focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
+              class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-2 text-white transition light:bg-black/5 light:border-black/10 light:text-gray-900 light:placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:bg-blue-500/5"
               placeholder="Escribe tu mensaje..."
             />
           </div>

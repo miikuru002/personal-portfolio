@@ -8,7 +8,7 @@ const emit = defineEmits(['update:menuOpen']);
 
 <template>
   <div
-    class="fixed top-0 left-0 w-full bg-[rgba(10,10,10,0.9)] z-40 flex flex-col items-center justify-center
+    class="fixed top-0 left-0 w-full bg-[rgba(10,10,10,0.9)] light:bg-[rgba(255,255,255,0.95)] z-40 flex flex-col items-center justify-center
            transition-all duration-300 ease-in-out"
     :class="{
       'h-screen opacity-100 pointer-events-auto': props.menuOpen,
@@ -17,7 +17,7 @@ const emit = defineEmits(['update:menuOpen']);
   >
     <button
       @click="emit('update:menuOpen', false)"
-      class="absolute top-6 right-6 text-white text-3xl focus:outline-none cursor-pointer"
+      class="absolute top-6 right-6 text-white light:text-gray-900 text-3xl focus:outline-none cursor-pointer"
       aria-label="Close Menu"
     >
       <Icon icon="tabler:x" class="w-7 h-7" />
@@ -26,7 +26,7 @@ const emit = defineEmits(['update:menuOpen']);
     <a
       href="#home"
       @click="emit('update:menuOpen', false)"
-      class="text-2xl font-semibold text-white my-4 transform transition-transform duration-300"
+      class="text-2xl font-semibold text-white light:text-gray-900 my-4 transform transition-transform duration-300"
       :class="{ 'opacity-100 translate-y-0': props.menuOpen, 'opacity-0 translate-y-5': !props.menuOpen }"
     >
       Inicio
@@ -34,7 +34,7 @@ const emit = defineEmits(['update:menuOpen']);
     <a
       href="#about"
       @click="emit('update:menuOpen', false)"
-      class="text-2xl font-semibold text-white my-4 transform transition-transform duration-300"
+      class="text-2xl font-semibold text-white light:text-gray-900 my-4 transform transition-transform duration-300"
       :class="{ 'opacity-100 translate-y-0': props.menuOpen, 'opacity-0 translate-y-5': !props.menuOpen }"
     >
       Sobre mí
@@ -42,7 +42,7 @@ const emit = defineEmits(['update:menuOpen']);
     <!-- <a
       href="#projects"
       @click="emit('update:menuOpen', false)"
-      class="text-2xl font-semibold text-white my-4 transform transition-transform duration-300"
+      class="text-2xl font-semibold text-white light:text-gray-900 my-4 transform transition-transform duration-300"
       :class="{ 'opacity-100 translate-y-0': props.menuOpen, 'opacity-0 translate-y-5': !props.menuOpen }"
     >
       Proyectos
@@ -52,7 +52,7 @@ const emit = defineEmits(['update:menuOpen']);
       target="_blank"
       rel="noopener noreferrer"
       @click="emit('update:menuOpen', false)"
-      class="text-2xl font-semibold text-white my-4 transform transition-transform duration-300"
+      class="text-2xl font-semibold text-white light:text-gray-900 my-4 transform transition-transform duration-300"
       :class="{ 'opacity-100 translate-y-0': props.menuOpen, 'opacity-0 translate-y-5': !props.menuOpen }"
     >
       Blog
@@ -60,7 +60,7 @@ const emit = defineEmits(['update:menuOpen']);
     <a
       href="#contact"
       @click="emit('update:menuOpen', false)"
-      class="text-2xl font-semibold text-white my-4 transform transition-transform duration-300"
+      class="text-2xl font-semibold text-white light:text-gray-900 my-4 transform transition-transform duration-300"
       :class="{ 'opacity-100 translate-y-0': props.menuOpen, 'opacity-0 translate-y-5': !props.menuOpen }"
     >
       Contacto

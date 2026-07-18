@@ -17,7 +17,7 @@ const isLoaded = ref(false);
   <LoadingScreen v-if="!isLoaded" @complete="isLoaded = true" />
 
   <div
-    class="min-h-screen transition-opacity duration-700 bg-black text-gray-100"
+    class="min-h-screen transition-[opacity,background-color,color] duration-700 bg-black text-gray-100 light:bg-white light:text-gray-900"
     :class="{ 'opacity-100': isLoaded, 'opacity-0': !isLoaded }"
   >
     <NavBar :menuOpen="menuOpen" @update:menuOpen="menuOpen = $event" />

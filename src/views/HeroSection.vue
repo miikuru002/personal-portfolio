@@ -16,7 +16,7 @@ import LinkButton from '@/views/components/LinkButton.vue';
           <span class="text-white"> 👋</span>
         </h1>
 
-        <p class="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
+        <p class="text-gray-400 light:text-gray-500 text-lg mb-8 max-w-lg mx-auto">
           Ingeniero de Software. Siempre aprendiendo algo nuevo y disfrutando del proceso ✨
         </p>
 

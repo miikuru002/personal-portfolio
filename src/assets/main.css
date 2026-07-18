@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* modo claro basado en la clase `.light` en <html> (por defecto: oscuro) */
+@custom-variant light (&:where(.light, .light *));
+
 html,
 body {
     margin: 0;
@@ -7,6 +10,14 @@ body {
     font-family: "Space Grotesk", sans-serif;
     background: #0a0a0a;
     color: #f3f4f6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* fondo/base para el modo claro */
+html.light,
+html.light body {
+    background: #ffffff;
+    color: #111827;
 }
 
 @layer utilities {

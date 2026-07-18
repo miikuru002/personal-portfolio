@@ -63,8 +63,8 @@ const getStyles = (color: string) => ({
         </h2>
 
         <!-- Descripción y Tecnologías -->
-        <div class="rounded-xl p-8 border-white/10 border">
-          <p class="text-gray-300 mb-6">
+        <div class="rounded-xl p-8 border-white/10 light:border-black/10 border">
+          <p class="text-gray-300 light:text-gray-600 mb-6">
             Cuento con más de 3 años de experiencia en construir soluciones backend mantenibles,
             escalables y seguras. Fuera del ámbito profesional, disfruto escuchar música, viajar,
             ver anime y hacer cosplay 🌸
@@ -90,49 +90,49 @@ const getStyles = (color: string) => ({
 
         <!-- Educación -->
         <div class="grid grid-cols-1 gap-6 mt-8">
-          <div class="p-6 rounded-xl border-white/10 border">
+          <div class="p-6 rounded-xl border-white/10 light:border-black/10 border">
             <h3 class="text-xl font-bold mb-4">🎓 Educación</h3>
-            <ul class="space-y-4 text-gray-300">
+            <ul class="space-y-4 text-gray-300 light:text-gray-600">
               <li>
                 <div class="flex items-baseline justify-between gap-4">
                   <div class="font-semibold">Ingeniería de Software</div>
-                  <div class="text-sm text-gray-400 shrink-0">2019 - 2026</div>
+                  <div class="text-sm text-gray-400 light:text-gray-500 shrink-0">2019 - 2026</div>
                 </div>
-                <div class="text-sm text-gray-400">Universidad Peruana de Ciencias Aplicadas</div>
+                <div class="text-sm text-gray-400 light:text-gray-500">Universidad Peruana de Ciencias Aplicadas</div>
               </li>
               <li>
                 <div class="flex items-baseline justify-between gap-4">
                   <div class="font-semibold">Diseño y Desarrollo de Software</div>
-                  <div class="text-sm text-gray-400 shrink-0">2019 - 2022</div>
+                  <div class="text-sm text-gray-400 light:text-gray-500 shrink-0">2019 - 2022</div>
                 </div>
-                <div class="text-sm text-gray-400">Instituto Tecnológico Superior Tecsup</div>
+                <div class="text-sm text-gray-400 light:text-gray-500">Instituto Tecnológico Superior Tecsup</div>
               </li>
               <li>
                 <div class="flex items-baseline justify-between gap-4">
                   <div class="font-semibold">Inglés avanzado (B2)</div>
                 </div>
-                <div class="text-sm text-gray-400">Asociación Cultural Peruano Británica</div>
+                <div class="text-sm text-gray-400 light:text-gray-500">Asociación Cultural Peruano Británica</div>
               </li>
             </ul>
           </div>
 
-          <!-- <div class="p-6 rounded-xl border-white/10 border">
+          <!-- <div class="p-6 rounded-xl border-white/10 light:border-black/10 border">
             <h3 class="text-xl font-bold mb-4">💼 Experiencia Laboral</h3>
-            <ul class="space-y-4 text-gray-300">
+            <ul class="space-y-4 text-gray-300 light:text-gray-600">
               <li>
                 <div class="font-semibold">Analista de Sistemas de T.I</div>
-                <div class="text-sm text-gray-400">E.T Armadillo • 2024 - Actualidad</div>
-                <p class="text-sm text-gray-400">Desarrollo de sistemas de seguridad basados en streaming de videos e IoT.</p>
+                <div class="text-sm text-gray-400 light:text-gray-500">E.T Armadillo • 2024 - Actualidad</div>
+                <p class="text-sm text-gray-400 light:text-gray-500">Desarrollo de sistemas de seguridad basados en streaming de videos e IoT.</p>
               </li>
               <li>
                 <div class="font-semibold">Practicante Profesional</div>
-                <div class="text-sm text-gray-400">Sapiens Consulting • 2022</div>
-                <p class="text-sm text-gray-400">Desarrollé nuevos features y reportes para aplicaciones web gubernamentales.</p>
+                <div class="text-sm text-gray-400 light:text-gray-500">Sapiens Consulting • 2022</div>
+                <p class="text-sm text-gray-400 light:text-gray-500">Desarrollé nuevos features y reportes para aplicaciones web gubernamentales.</p>
               </li>
               <li>
                 <div class="font-semibold">Pasante</div>
-                <div class="text-sm text-gray-400">Precor S.A • 2021</div>
-                <p class="text-sm text-gray-400">Desarrollé un chatbot para RRHH, optimicé datos y diseñé interfaces gráficas.</p>
+                <div class="text-sm text-gray-400 light:text-gray-500">Precor S.A • 2021</div>
+                <p class="text-sm text-gray-400 light:text-gray-500">Desarrollé un chatbot para RRHH, optimicé datos y diseñé interfaces gráficas.</p>
               </li>
             </ul>
           </div> -->

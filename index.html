@@ -8,6 +8,12 @@
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" />
     <title>miikuru002's portfolio</title>
+    <script>
+      //aplica el tema guardado antes del render para evitar parpadeo (default: oscuro)
+      if (localStorage.getItem('theme') === 'light') {
+        document.documentElement.classList.add('light');
+      }
+    </script>
   </head>
   <body>
     <div id="app"></div>
