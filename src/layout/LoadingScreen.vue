@@ -52,7 +52,7 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div class="fixed inset-0 z-50 bg-black flex items-center justify-center text-blue-400 font-mono">
+  <div class="fixed inset-0 z-50 bg-black flex items-center justify-center text-blue-400 font-mono light:bg-white light:text-blue-600">
     <div class="w-[400px] p-4">
       <!-- Spinner + Mensaje -->
       <div class="text-sm flex items-center">
@@ -60,7 +60,7 @@ onUnmounted(() => {
       </div>
 
       <!-- Barra de carga estilo retro -->
-      <div class="w-full h-5 bg-blue-500 mt-2" :style="{ width: progress + '%' }"></div>
+      <div class="w-full h-5 bg-blue-500 light:bg-blue-600 mt-2" :style="{ width: progress + '%' }"></div>
     </div>
   </div>
 </template>
